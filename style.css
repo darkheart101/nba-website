@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 * {font-family: "Arial"}
 
 header {
@@ -130,12 +131,12 @@ img{
 }
 
 nav{
-    width:auto;
-    height: 35px;
+    width: auto;
+    height: 40px;
     background-color: blue;
     color: white;
     border: 1px solid black;
-    text-align: right;
+    text-align: left;
     padding-right: 5px;
     padding-top:4px;
 }
@@ -155,7 +156,22 @@ nav a:visited{
     color:white;
 }
 
-#menu{
+#menu ul{
+    list-style: none;
+    margin: 0;
+}
+
+#menu ul li{
+    display: inline-block;
+    margin: 8px;
+}
+
+#menu ul li a{
+    font-family: "Open Sans", "Arial", sans-serif;
+    padding: 5px;
+}
+
+/*#menu{
     float:left;
     height: 23px;
     background-color: #FFF;
@@ -179,7 +195,7 @@ nav a:visited{
     font-size: 20px;
         
 }
-
+*/
 
 @media only screen and (max-width: 980px) {
     body{
@@ -227,36 +243,13 @@ nav a:visited{
     
     nav{
         width:auto;
-        height: 30px;
+        height: 35px;
         background-color: blue;
         color: white;
         border: 1px solid black;
-        text-align: right;
+        text-align: left;
         padding-right: 5px;
         padding-top:4px;
-    }
-    
-    #menu{
-        float:left;
-        height: 23px;
-        background-color: #FFF;
-        border: 1px solid black;
-        overflow: auto;
-        margin: 2px;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    
-    #menu a{
-        text-decoration: none;
-        color: #000;
-        font-size: 20px;
-    }
-    
-    #menu a:hover{
-        text-decoration: none;
-        color: #b30d0e;
-        font-size: 20px; 
     }
 }
 
@@ -304,35 +297,12 @@ nav a:visited{
     
     nav{
         width:auto;
-        height: 65px;
+        height: 70px;
         background-color: blue;
         color: white;
         border: 1px solid black;
         text-align: left;
         padding-top:4px;
-    }
-    
-    #menu{
-        float:left;
-        height: 23px;
-        background-color: #FFF;
-        border: 1px solid black;
-        overflow: auto;
-        margin: 2px;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    
-    #menu a{
-        text-decoration: none;
-        color: #000;
-        font-size: 20px; 
-    }
-    
-    #menu a:hover{
-        text-decoration: none;
-        color: #b30d0e;
-        font-size: 20px;      
     }
 }
 
@@ -383,7 +353,7 @@ nav a:visited{
     
     nav{
         width:auto;
-        height: 200px;
+        height: 205px;
         background-color: blue;
         color: white;
         border: 1px solid black;
@@ -393,29 +363,4 @@ nav a:visited{
         padding-left: 15px;        
     } 
     
-    #menu{
-        float:left;
-        height: 35px;
-        background-color: #FFF;
-        border: 1px solid black;
-        overflow: auto;
-        margin: 2px;
-        padding-left: 5px;
-        padding-right: 5px;
-        clear:both;
-    }
-    
-    #menu a{
-        text-decoration: none;
-        color: #000;
-        vertical-align: middle;
-        font-size: 30px;        
-    }
-    
-    #menu a:hover{
-        text-decoration: none;
-        color: #b30d0e;
-        vertical-align: middle;
-        font-size: 30px;        
-    }
 }
