@@ -1,0 +1,421 @@
+* {font-family: "Arial"}
+
+header {
+    font-family: "Arial", serif;
+    color: red;
+    background: blue;
+    border: 1px solid black;
+    background-image: url(images/nba.banner.1024.jpg);
+    height: 288px;
+    width: auto;   
+}
+
+footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    clear:both;
+    color: white;
+    background:gray;
+    
+
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1024px;
+    background: gray;
+    border: 1px solid black;
+    background-image: url("./images/bcourt.jpg");
+}
+
+main{
+ background: white;
+ padding-bottom: 30px;
+ 
+}
+
+
+h3 {
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-family: "Arial";
+    padding-top: 10px;
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+p{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+    
+}
+
+
+
+#blueline{
+    background-color: blue;
+    height: 5px;
+}
+
+.copyright{
+    background:black;
+    color:white;
+    text-align:right;
+    font-size: 15px;
+    width: 100%;
+    margin-right: 0;
+}
+
+#social{
+    width:50px;
+    height:50px;
+    display:inline;
+    padding-left: 5px;
+}
+
+#presentation-left{
+    float: left;
+    padding-right: 30px;
+    padding-left:5px;
+    width: 150px;
+    height: auto;
+    }
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col1{
+    clear: both;
+    width:33%;
+    float:left;
+    margin: 0 auto; 
+}
+
+
+.col2{
+    width:33%;
+    float:left;
+    
+    
+}
+
+.col3{
+    width:33%;
+    float:left;
+    
+}
+
+.col1 img, .col2 img, .col3 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col1 h2, .col2 h2, .col3 h2{
+    text-align: center;
+    margin-top: 0px;
+}
+
+.col1 a, .col2 a, .col3 a{
+    text-decoration: none;
+}
+
+nav{
+    width:auto;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    text-align: right;
+    padding-right: 5px;
+    padding-top:4px;
+}
+
+nav a:hover { 
+    background-color: black;
+    text-decoration: none;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: white;   
+}
+
+nav a:visited{
+    text-decoration: none;
+    color:white;
+}
+
+#menu{
+    float:left;
+    height: 23px;
+    background-color: #FFF;
+    border: 1px solid black;
+    overflow: auto;
+    margin: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+    
+#menu a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+        
+}
+    
+#menu a:hover{
+    text-decoration: none;
+    color: #b30d0e;
+    font-size: 20px;
+        
+}
+
+
+@media only screen and (max-width: 980px) {
+    body{
+        margin: 0 auto;
+        max-width: 800px;
+        background: gray;
+        border: 1px solid black;
+        background-image: url("./images/bcourt.jpg");  
+    }
+    
+    header {
+        font-family: "Arial", serif;
+        color: red;
+        background: blue;
+        border: 1px solid black;
+        background-image: url(images/nba.banner.800.jpg);
+        height: 225px;
+        width: auto;   
+    }
+    
+    img{  
+        padding-right:1px;
+    }
+    .col1{
+        clear: both;
+        width:49%;
+        float:left;
+        margin: 0 auto; 
+    }
+
+    .col2{
+        width:49%;
+        float:left;
+    }
+
+    .col3{
+        width:100%;
+        float:left;
+    }
+    
+    article img{
+        width: 680px;
+        height: auto;
+    }
+    
+    nav{
+        width:auto;
+        height: 30px;
+        background-color: blue;
+        color: white;
+        border: 1px solid black;
+        text-align: right;
+        padding-right: 5px;
+        padding-top:4px;
+    }
+    
+    #menu{
+        float:left;
+        height: 23px;
+        background-color: #FFF;
+        border: 1px solid black;
+        overflow: auto;
+        margin: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    #menu a{
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+    }
+    
+    #menu a:hover{
+        text-decoration: none;
+        color: #b30d0e;
+        font-size: 20px; 
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    body{
+        margin: 0 auto;
+        max-width: 400px;
+        background: gray;
+        border: 1px solid black;
+        background-image: url("./images/bcourt.jpg");  
+    }
+    
+    header {
+        font-family: "Arial", serif;
+        color: red;
+        background: blue;
+        border: 1px solid black;
+        background-image: url(images/nba.banner.400.jpg);
+        height: 267px;
+        width: auto;   
+    }
+    
+    .col1{
+        clear: both;
+        width:100%;
+        float:left;
+        margin: 0 auto; 
+    }
+
+
+    .col2{
+        width:100%;
+        float:left;
+    }
+
+    .col3{
+        width:100%;
+        float:left;
+    }
+    
+    article img{
+        width: 390px;
+        height: auto;
+    }
+    
+    nav{
+        width:auto;
+        height: 65px;
+        background-color: blue;
+        color: white;
+        border: 1px solid black;
+        text-align: left;
+        padding-top:4px;
+    }
+    
+    #menu{
+        float:left;
+        height: 23px;
+        background-color: #FFF;
+        border: 1px solid black;
+        overflow: auto;
+        margin: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    #menu a{
+        text-decoration: none;
+        color: #000;
+        font-size: 20px; 
+    }
+    
+    #menu a:hover{
+        text-decoration: none;
+        color: #b30d0e;
+        font-size: 20px;      
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    body{
+        margin: 0 auto;
+        max-width: 310px;
+        background: gray;
+        border: 1px solid black;
+        background-image: url("./images/bcourt.jpg");  
+    }
+    
+    header {
+        font-family: "Arial", serif;
+        color: red;
+        background: blue;
+        border: 1px solid black;
+        background-image: url(images/nba.banner.310.jpg);
+        height: 207px;
+        width: auto;   
+    }
+    
+    article img{
+        width:300px;
+        height: auto;
+    }
+    .col1{
+        clear: both;
+        width:100%;
+        float:left;
+        margin: 0 auto; 
+    }
+    
+    .col1 img, .col2 img, .col3 img{
+        width: 300px;
+        height: 375px;
+    }
+
+    .col2{
+        width:100%;
+        float:left;
+    }
+
+    .col3{
+        width:100%;
+        float:left;
+    }
+    
+    nav{
+        width:auto;
+        height: 200px;
+        background-color: blue;
+        color: white;
+        border: 1px solid black;
+        text-align: left;
+        padding-top:4px;
+        padding-bottom:4px;
+        padding-left: 15px;        
+    } 
+    
+    #menu{
+        float:left;
+        height: 35px;
+        background-color: #FFF;
+        border: 1px solid black;
+        overflow: auto;
+        margin: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+        clear:both;
+    }
+    
+    #menu a{
+        text-decoration: none;
+        color: #000;
+        vertical-align: middle;
+        font-size: 30px;        
+    }
+    
+    #menu a:hover{
+        text-decoration: none;
+        color: #b30d0e;
+        vertical-align: middle;
+        font-size: 30px;        
+    }
+}
